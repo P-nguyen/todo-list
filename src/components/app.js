@@ -25,7 +25,6 @@ class App extends Component {
     }
 
     addItem(item){
-
         this.setState({
             list: [item, ...this.state.list]
         });
